@@ -37,19 +37,20 @@ function choiceStory(select) {
                 document.getElementById("choiceImg").src = "./assets/images/choice_6.png";
             }
             else {
-                selection = 7
+                selection = 7;
                 document.getElementById("choiceImg").src = "./assets/images/choice_7.png";
 
             }
-                break;
-            case 4:
-                if (select == 1) {
-                    selection = 8;
-                    document.getElementById("choiceImg").src = "./assets/images/choice_8.png";
-                }
-                else {
-                    selection = 7
-                }
-                break;
+            break;
+        case 4:
+            if (select == 1) {
+                selection = 8;
+                document.getElementById("choiceImg").src = "./assets/images/choice_8.png";
+            }
+            else {
+                selection = 9;
+                document.getElementById("choiceImg").src = "./assets/images/choice_7.png";
+            }
+            break;
     }
 }
